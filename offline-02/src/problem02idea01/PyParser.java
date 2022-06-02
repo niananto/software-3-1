@@ -1,4 +1,4 @@
-package problem02;
+package problem02idea01;
 
 class PyParser implements Parser{
     @Override

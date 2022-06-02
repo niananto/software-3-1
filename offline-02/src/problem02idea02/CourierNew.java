@@ -1,6 +1,6 @@
-package problem02;
+package problem02idea02;
 
-class Consolas implements Font{
+class CourierNew implements Font {
     @Override
     public String getNameOfFont() {
         return this.getClass().getName();

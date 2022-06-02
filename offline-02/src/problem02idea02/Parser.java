@@ -1,4 +1,4 @@
-package problem02;
+package problem02idea02;
 
 public interface Parser {
 //    interface for c, cpp, py parsers to implement

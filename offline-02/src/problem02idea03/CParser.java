@@ -1,6 +1,6 @@
-package problem02;
+package problem02idea03;
 
-class CParser implements Parser{
+class CParser implements Parser {
     @Override
     public String parse() {
         return "parsing c files";

@@ -1,4 +1,4 @@
-package problem02;
+package problem02idea01;
 
 public interface EnvironmentFactory {
 //    c + courier new

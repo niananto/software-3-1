@@ -1,4 +1,4 @@
-package problem02;
+package problem02idea03;
 
 public class Editor {
 //    singleton
@@ -7,9 +7,12 @@ public class Editor {
 //    editor cannot run simultaneously
 
     private static Editor editor = null;
+    private Environment env;
 
-    private Editor() {
+    private Editor() {}
 
+    public void setEnv(Environment env) {
+        this.env = env;
     }
 
     public static Editor getEditor() {
@@ -21,5 +24,9 @@ public class Editor {
         }
 
         return editor;
+    }
+
+    public void printDescription() {
+        env.describeEnvironment();
     }
 }

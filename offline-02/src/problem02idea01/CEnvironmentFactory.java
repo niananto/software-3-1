@@ -1,4 +1,4 @@
-package problem02;
+package problem02idea01;
 
 public class CEnvironmentFactory implements EnvironmentFactory{
     @Override
