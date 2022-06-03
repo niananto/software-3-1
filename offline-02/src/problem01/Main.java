@@ -44,7 +44,7 @@ public class Main {
 
 
         // then a factory to build every type of them
-        IBuilderFactory factory = new ConcreteBuilderFactory();
+        FactoryForBuilders factory = new FactoryForBuilders();
         while(sc.hasNextLine()) {
             s = sc.nextLine();
             tokens = s.split(" ");

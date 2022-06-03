@@ -1,9 +1,12 @@
 package problem01;
 
 public class Director {
-    private IBuilder builder;
 
     public void construct(IBuilder builder, String commChannel, int noOfDisplayUnits) {
-        this.builder = builder.specifyName(noOfDisplayUnits).setCommChannel(commChannel);
+        try {
+            builder.specifyName(noOfDisplayUnits).addApplication().setCommChannel(commChannel);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
