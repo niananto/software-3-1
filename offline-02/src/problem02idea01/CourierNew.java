@@ -5,4 +5,9 @@ class CourierNew implements Font{
     public String getNameOfFont() {
         return this.getClass().getName();
     }
+
+    @Override
+    public String toString() {
+        return "Courier New";
+    }
 }

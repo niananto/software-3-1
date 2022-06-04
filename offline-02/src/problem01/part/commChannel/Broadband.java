@@ -1,6 +1,6 @@
 package problem01.part.commChannel;
 
-public class Broadband extends CommChannel {
+class Broadband extends CommChannel {
     // yearly cost
     @Override
     public double getPrice() {

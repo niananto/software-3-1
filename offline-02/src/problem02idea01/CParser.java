@@ -10,4 +10,9 @@ class CParser implements Parser{
     public String match(String string) {
         return "matching c strings";
     }
+
+    @Override
+    public String toString() {
+        return "C";
+    }
 }

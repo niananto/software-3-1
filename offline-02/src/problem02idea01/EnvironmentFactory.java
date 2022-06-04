@@ -5,6 +5,5 @@ public interface EnvironmentFactory {
 //    cpp + monaco
 //    py + consolas
 
-    Parser getParser();
-    Font getFont();
+    Environment getEnvironment();
 }

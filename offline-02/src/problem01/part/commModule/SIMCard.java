@@ -1,6 +1,6 @@
 package problem01.part.commModule;
 
-public class SIMCard extends CommModule {
+class SIMCard extends CommModule {
     @Override
     public double getPrice() {
         return 1364;

@@ -10,4 +10,9 @@ class CppParser implements Parser{
     public String match(String string) {
         return "matching cpp strings";
     }
+
+    @Override
+    public String toString() {
+        return "Cpp";
+    }
 }

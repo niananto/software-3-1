@@ -7,6 +7,7 @@ public class Editor {
 //    editor cannot run simultaneously
 
     private static Editor editor = null;
+    private Environment environment;
 
     private Editor() {
 
@@ -21,5 +22,13 @@ public class Editor {
         }
 
         return editor;
+    }
+
+    public void setEnvironment(Environment environment) {
+        this.environment = environment;
+    }
+
+    public void describeCurrentEnvironment() {
+        environment.describeEnv();
     }
 }

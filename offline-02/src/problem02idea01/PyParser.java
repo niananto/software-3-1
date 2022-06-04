@@ -10,4 +10,9 @@ class PyParser implements Parser{
     public String match(String string) {
         return "matching python strings";
     }
+
+    @Override
+    public String toString() {
+        return "Python";
+    }
 }

@@ -1,8 +1,7 @@
 package problem01;
 
-import problem01.part.Part;
 import problem01.part.commChannel.CommChannel;
-import problem01.part.commModule.CommModule;
+import problem01.part.Part;
 
 import java.util.LinkedList;
 

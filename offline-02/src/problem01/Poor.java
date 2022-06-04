@@ -1,6 +1,6 @@
 package problem01;
 
-import problem01.part.Application;
+import problem01.part.*;
 import problem01.part.commChannel.CommChannelFactory;
 import problem01.part.commModule.CommModuleFactory;
 import problem01.part.controller.ControllerFactory;
