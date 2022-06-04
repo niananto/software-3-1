@@ -1,6 +1,6 @@
-package problem02idea01;
+package problem02;
 
-class Monaco implements Font{
+class Consolas implements Font{
     @Override
     public String getNameOfFont() {
         return this.getClass().getName();
@@ -8,6 +8,6 @@ class Monaco implements Font{
 
     @Override
     public String toString() {
-        return "Monaco";
+        return "Consolas";
     }
 }

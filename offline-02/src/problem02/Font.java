@@ -1,4 +1,4 @@
-package problem02idea02;
+package problem02;
 
 public interface Font {
 //    The editor uses Courier New, Monaco

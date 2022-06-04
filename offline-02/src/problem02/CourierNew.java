@@ -1,6 +1,6 @@
-package problem02idea01;
+package problem02;
 
-class Consolas implements Font{
+class CourierNew implements Font{
     @Override
     public String getNameOfFont() {
         return this.getClass().getName();
@@ -8,6 +8,6 @@ class Consolas implements Font{
 
     @Override
     public String toString() {
-        return "Consolas";
+        return "Courier New";
     }
 }

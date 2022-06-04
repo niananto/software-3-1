@@ -1,4 +1,4 @@
-package problem02idea01;
+package problem02;
 
 public class CppEnvironmentFactory implements EnvironmentFactory{
     @Override

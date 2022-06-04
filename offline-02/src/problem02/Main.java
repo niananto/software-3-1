@@ -1,6 +1,4 @@
-package problem02idea01;
-
-import problem02idea01.Editor;
+package problem02;
 
 import java.util.Scanner;
 

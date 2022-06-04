@@ -1,18 +1,18 @@
-package problem02idea01;
+package problem02;
 
-class CppParser implements Parser{
+class PyParser implements Parser{
     @Override
     public String parse() {
-        return "parsing cpp files";
+        return "parsing python files";
     }
 
     @Override
     public String match(String string) {
-        return "matching cpp strings";
+        return "matching python strings";
     }
 
     @Override
     public String toString() {
-        return "Cpp";
+        return "Python";
     }
 }
